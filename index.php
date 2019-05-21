@@ -1,19 +1,15 @@
 <?php
-// echo "hello world"."<br>";
-// echo "This is just Text <br>";
-// $c = 6;
-// $d = &$c;
-// echo $c;
-// echo $d;
-// $d = 9;
-// echo $c;
-// echo $d . "<br>";
-// $a = "b";
-// $b = "hello";
-// echo "<br>";
-// $hello ="this is men";
-// echo $$a;
-// echo $$b;
-$array = array(1,2,3,4,5,6,7,8,9,10);
-echo $array;
+$arr = array(100,40,2,5,17,50,4);
+$min = $arr[0];
+$max = $arr[0];
+foreach($arr as $key => $val){
+if($min > $val){
+$min = $val;
+}
+elseif($max < $val){
+    $max = val;
+}
+}
+echo "This is value min of array ". $min ."<br>" ;
+echo "This is value max of array ". $max;
 ?>
